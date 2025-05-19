@@ -238,3 +238,58 @@ O Azure também oferece **tradução automática de textos e falas**, com suport
 
 ---
 
+# Resumo: Inteligência de Documentos de IA no Azure
+
+Este documento apresenta os conceitos fundamentais da **Inteligência de Documentos** no Azure, um conjunto de ferramentas que usa IA para extrair, analisar e compreender dados de documentos estruturados e não estruturados de forma automatizada.
+
+## 🎯 Inteligência de Documentos de IA do Azure - Objetivos de Aprendizado
+
+Ao estudar este tema, os principais objetivos de aprendizado são:
+
+- Entender como a Azure aplica Inteligência Artificial à análise de documentos.
+- Conhecer os serviços disponíveis para extração automática de informações.
+- Aprender a utilizar o **Azure Document Intelligence** para digitalizar, interpretar e processar documentos como faturas, formulários, contratos e recibos.
+- Usar ferramentas visuais como o **Document Intelligence Studio** para treinar e testar modelos personalizados de extração de dados.
+
+## 📄 Serviços de Inteligência de Documentos de IA do Azure
+
+A Azure oferece o serviço **Document Intelligence** (anteriormente conhecido como **Form Recognizer**) para aplicar IA na análise de documentos.
+
+### Principais funcionalidades:
+
+- **Extração automática de texto, tabelas e estrutura** de documentos escaneados (PDFs, imagens, etc.).
+- Reconhecimento de **campos-chave em formulários e faturas**.
+- Suporte a **documentos personalizados**, com capacidade de treinar modelos específicos.
+- **Pré-treinamento de modelos** para tipos de documentos comuns, como:
+  - Faturas
+  - Recibos
+  - Cartões de visita
+  - Passaportes
+
+## 📑 Analisando Formulários com o Document Intelligence e Estúdio de Inteligência de Documentos
+
+### 🔍 Document Intelligence
+
+- API baseada em IA para processar grandes volumes de documentos.
+- Funciona com documentos digitalizados, imagens ou PDFs.
+- Suporta dois tipos de modelos:
+  - **Modelos pré-treinados**: Já prontos para tipos comuns de documentos.
+  - **Modelos personalizados**: Treinados com seus próprios documentos.
+
+### 🧪 Document Intelligence Studio
+
+- Ferramenta gráfica no portal Azure para criar, treinar e testar modelos personalizados.
+- Permite marcar (rotular) manualmente os campos dos documentos durante o treinamento.
+- Ideal para quem não tem experiência com programação.
+
+### Passos básicos no uso:
+
+1. **Envio dos documentos de exemplo**.
+2. **Rotulagem dos campos de interesse** (nome, data, valor, etc.).
+3. **Treinamento do modelo personalizado**.
+4. **Teste com novos documentos** para validar a extração.
+5. **Implantação do modelo** via API REST ou SDK.
+
+---
+
+
