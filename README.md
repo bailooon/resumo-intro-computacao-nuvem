@@ -128,3 +128,49 @@ A estrutura da Azure é composta por diversos elementos que trabalham juntos par
 - Usados para **organizar múltiplas assinaturas** sob uma estrutura hierárquica.
 - Permitem aplicar **políticas e controles centralizados** em várias assinaturas simultaneamente.
 - São ideais para empresas com muitos departamentos, ambientes ou unidades de negócio.
+
+# Resumo: Serviços de Computação na Azure
+
+Este documento resume os principais serviços de computação oferecidos pela Microsoft Azure, incluindo Máquinas Virtuais, Contêineres, Área de Trabalho Virtual e serviços de aplicação sem servidor (serverless).
+
+## ⚙️ Serviços de Computação e Máquinas Virtuais do Azure
+
+As **Máquinas Virtuais (VMs)** são um dos serviços fundamentais da Azure, permitindo executar sistemas operacionais e aplicativos em uma infraestrutura de nuvem gerenciada.
+
+- **Personalização completa** de hardware virtual, SO e rede.
+- Suporte para Windows, Linux e diversas imagens pré-configuradas.
+- Ideal para migração de sistemas legados ou execução de aplicações específicas.
+- Pode ser dimensionada vertical ou horizontalmente conforme a demanda.
+
+## 🛡️ Conjuntos de Disponibilidade de Máquinas Virtuais do Azure
+
+- **Availability Sets** (Conjuntos de Disponibilidade) são usados para aumentar a **alta disponibilidade** das VMs.
+- Distribuem as VMs em:
+  - **Fault Domains (FDs)**: Proteção contra falhas físicas (como problemas de hardware ou energia).
+  - **Update Domains (UDs)**: Garantem que atualizações sejam aplicadas em grupos separados, evitando indisponibilidade simultânea.
+- Importante para aplicações críticas que precisam de **redundância** e **continuidade de serviço**.
+
+## 🖥️ Área de Trabalho Virtual e Contêineres do Azure
+
+### 💻 Área de Trabalho Virtual (Azure Virtual Desktop)
+
+- Serviço de **virtualização de desktop e aplicativos** baseado na nuvem.
+- Permite acessar um **ambiente de trabalho remoto seguro** de qualquer lugar.
+- Reduz custos com infraestrutura local e facilita o trabalho remoto com gerenciamento centralizado.
+
+### 📦 Contêineres do Azure
+
+- Executam aplicativos de forma leve, isolada e portátil, com o uso de imagens de contêiner (como Docker).
+- Principais serviços:
+  - **Azure Container Instances (ACI)**: Execução rápida de contêineres sem necessidade de gerenciar servidores.
+  - **Azure Kubernetes Service (AKS)**: Orquestração de contêineres em larga escala com Kubernetes.
+- Benefícios: implantação rápida, escalabilidade automática e uso eficiente de recursos.
+
+## ⚡ Azure Functions e Serviços de Aplicativo do Azure
+
+### 🔁 Azure Functions
+
+- Serviço **serverless** que executa código sob demanda, em resposta a eventos (HTTP requests, timers, filas etc.).
+- Paga-se **apenas pelo tempo de execução**.
+- Idea
+
