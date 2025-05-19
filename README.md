@@ -174,3 +174,67 @@ As **Máquinas Virtuais (VMs)** são um dos serviços fundamentais da Azure, per
 - Paga-se **apenas pelo tempo de execução**.
 - Idea
 
+# Resumo: Serviços Cloud de Inteligência Artificial
+
+# Resumo: Serviços de Cloud de Inteligência Artificial - Processamento de Linguagem Natural no Azure
+
+Este documento apresenta os conceitos fundamentais de **Processamento de Linguagem Natural (PLN)** e sua aplicação prática por meio dos serviços de **IA Conversacional** da Microsoft Azure, incluindo análise de sentimentos, fala e tradução.
+
+## 💬 Conceitos de Processamento de Linguagem Natural
+
+O **Processamento de Linguagem Natural (PLN)** é um campo da Inteligência Artificial que permite que máquinas compreendam, interpretem e gerem linguagem humana (texto e fala).
+
+Seus principais objetivos incluem:
+- Compreensão do significado de frases e textos.
+- Extração de informações importantes de documentos.
+- Geração de respostas automáticas e interações naturais.
+- Suporte multilíngue e tradução automática.
+
+## ❓ O que é Processamento de Linguagem Natural?
+
+PLN envolve o uso de algoritmos e modelos de aprendizado de máquina para processar linguagem humana de forma semelhante à interpretação feita por pessoas.
+
+Aplicações típicas:
+- **Chatbots** e assistentes virtuais.
+- **Análise de sentimentos** em redes sociais ou avaliações.
+- **Tradução automática** de textos em diferentes idiomas.
+- **Conversão de fala em texto** e vice-versa.
+
+## 💡 PLN e IA Conversacional no Azure – Análise de Sentimento e Respostas a Perguntas
+
+### 🔍 Análise de Sentimentos
+
+- Permite identificar **emoções e opiniões** expressas em textos.
+- Classifica conteúdos como **positivos, negativos, neutros ou mistos**.
+- Usado para monitorar feedbacks de clientes, redes sociais, pesquisas, entre outros.
+
+### ❓ Respostas a Perguntas
+
+- Usa modelos de **compreensão de linguagem** para responder perguntas com base em textos fornecidos.
+- Permite construir **sistemas de FAQ inteligentes** e assistentes que entendem o contexto.
+
+**Serviço Azure utilizado**: Question Answering (parte do Azure AI Language)
+
+## 🗣️ PLN e IA Conversacional no Azure – Fala
+
+A Azure oferece recursos robustos para conversão de **fala em texto** e **texto em fala**:
+
+- **Reconhecimento de fala (Speech-to-Text)**: Converte áudio em texto com alta precisão.
+- **Síntese de fala (Text-to-Speech)**: Gera voz natural a partir de textos, com vozes personalizáveis.
+- Suporta múltiplos idiomas e sotaques.
+
+Aplicações:
+- Assistentes virtuais por voz.
+- Legendas automáticas.
+- Acessibilidade para pessoas com deficiência visual ou auditiva.
+
+## 🌍 PLN e IA Conversacional no Azure – Tradução
+
+O Azure também oferece **tradução automática de textos e falas**, com suporte a dezenas de idiomas.
+
+- Traduz texto de forma contextual e precisa.
+- Traduz áudio ou fala em tempo real com reconhecimento multilíngue.
+- Suporta tradução de documentos inteiros e legendas multilíngues.
+
+---
+
