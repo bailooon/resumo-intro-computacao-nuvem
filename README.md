@@ -52,4 +52,38 @@ A Microsoft Azure é uma das principais plataformas de computação em nuvem do 
 
 ---
 
-> Com esses benefícios, a Azure se destaca como uma plataforma poderosa e flexível para suportar a transformação digital das organizações, promovendo inovação, agilidade e eficiência operacional.
+# Tipos de Serviço de Nuvem na Azure
+
+## ☁️ IaaS, PaaS e SaaS na Azure
+
+A Azure disponibiliza diferentes modelos de serviços em nuvem, cada um com níveis distintos de controle, flexibilidade e gerenciamento:
+
+### 🔧 IaaS (Infrastructure as a Service)
+
+- **O que é**: Fornece infraestrutura básica como máquinas virtuais, redes e armazenamento.
+- **Responsabilidade do cliente**: Gerenciar sistema operacional, middleware, aplicativos e dados.
+- **Exemplos na Azure**: Azure Virtual Machines, Azure Load Balancer, Azure Virtual Network.
+
+### 🛠️ PaaS (Platform as a Service)
+
+- **O que é**: Fornece uma plataforma gerenciada para desenvolver, executar e escalar aplicações.
+- **Responsabilidade do cliente**: Foco no desenvolvimento e gerenciamento de aplicações e dados.
+- **Exemplos na Azure**: Azure App Service, Azure SQL Database, Azure Functions.
+
+### 💼 SaaS (Software as a Service)
+
+- **O que é**: Aplicações completas entregues como serviço, acessadas pela internet.
+- **Responsabilidade do cliente**: Apenas o uso do software e gerenciamento de dados do usuário.
+- **Exemplos na Azure**: Microsoft 365, Dynamics 365, Power BI.
+
+## 🔄 Modelo de Responsabilidade Compartilhada
+
+Na computação em nuvem, a segurança e o gerenciamento dos recursos são compartilhados entre a Microsoft (provedora da Azure) e o cliente. A divisão das responsabilidades varia de acordo com o modelo de serviço adotado:
+
+| Elemento                         | IaaS         | PaaS         | SaaS         |
+|----------------------------------|--------------|--------------|--------------|
+| Segurança física do datacenter   | Azure        | Azure        | Azure        |
+| Infraestrutura (rede, servidores)| Azure        | Azure        | Azure        |
+| Sistema operacional               | Cliente      | Azure        | Azure        |
+| Aplicações                       | Cliente      | Cliente      | Azure        |
+| Dados                            | Cliente      | Cliente
